@@ -1,0 +1,204 @@
+body{
+  font: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 800;
+}
+p{
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+   padding: 7% 15%;
+}
+
+/* Sections */
+.coloured-section{
+  background-color: #71C9CE;
+  color: #E3FDFD;
+}
+.white-section{
+  background-color: #E3FDFD;
+}
+
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat, sans-serif";
+  font-weight: 400;
+}
+.btn-success{
+  border-color: #71C9CE;
+  background-color: #71C9CE;
+}
+.btn-success:hover{
+  border-color: #71C9CE;
+  background-color: #CBF1F5;
+  color:  #71C9CE;
+}
+
+/* Download button */
+.download-btn{
+  margin: 5% 3% 5%;
+}
+
+/* Title Section */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+.title-details{
+  color:  #CBF1F5;
+}
+/* Title image */
+.title-img{
+  width: 25%;
+  position: absolute;
+  /* right: 10%; */
+}
+
+/* Features */
+#features{
+  position: relative;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.feature-box{
+}
+.feature-icon{
+  color: #A6E3E9;
+  font-size: 3.5rem;
+  margin: 1rem;
+  line-height: 1.5;
+}
+.feature-icon:hover{
+  color: #71C9CE;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color: #A6E3E9;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press{
+  background-color: #A6E3E9;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 990px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    width:60%;
+  }
+}
+
+}
+.cta-heading{
+  font-style: "Montserrat";
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.download-btn-cta{
+  margin: 2% 2%;
+}
+
+/* LOGIN */
+
+.box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:300px;
+	height:300px;
+}
+.box h1 { color: #A6E3E9;  letter-spacing:1px; text-align:center; }
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+
+#footer{
+  font-size: 1.5rem;
+}
+.footer-icon{
+  margin: 10px 10px;
+}
